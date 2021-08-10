@@ -4,12 +4,13 @@
 	box-sizing: border-box;
 }
 body {
-	background-image: url('img/pool.jpg');
+	background:url('img/house.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
 	background-position: center;
 }
+
 .navbar {
 	color: #fff;
 	margin-left: 5rem;
@@ -17,24 +18,25 @@ body {
 	font-size: 30px;
 	font-weight: bold;
 }
-h4 {
+.updates {
 	color: #ffffff;
 	text-transform: uppercase;
-	padding-top: 7rem;
+	padding-top: 2.5rem;
 	margin-left: 6rem;
 }
-h1 {
-	color: #ffffff;
-	text-transform: uppercase;
-	padding-top: 1rem;
-	margin-left: 6rem;
-}
-h3 {
+.fw-bolder {
 	color: #ffffff;
 	padding-top: 1rem;
 	margin-left: 6rem;
+	font-size: 3rem;
 }
-.caps  {
+.first {
+	color: #ffffff;
+	padding-top: 4rem;
+	margin-left: 6rem;
+	font-size: 1.2rem;
+}
+.before  {
 	text-transform: uppercase;
 	color: #ffffff;
 	padding: 0 8px 0 5px;
@@ -45,7 +47,7 @@ button.btn {
 	height: 6rem;
 	width: 20rem;
 	margin-left: 6rem;
-	margin-top: 4rem;
+	margin-top: 3rem;
 	font-size: 20px;
 }
 .fas {
@@ -53,7 +55,7 @@ button.btn {
 }
 p {
 	color: #ffffff;
-	margin: 10rem;
+	margin: 5rem;
 }
 footer {
 	clear: both;
@@ -62,7 +64,30 @@ footer {
 	margin-top: 500px;
 	color: #ffffff;
 	margin-left: 5rem;
+
 }
 .underline {
 	text-decoration: underline;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 576px) {
+	.navbar {
+		margin-top: 1rem;
+		margin-left: 1rem;
+	}
+	.first {
+		margin-left: 1rem;
+	}
+	.fw-bolder {
+		margin-left: 1rem;
+		width: 101%;
+		font-size: 2.3rem;
+	}
+	.updates {
+		margin-left: 1rem;
+	}
+	button {
+		
+	}
 }
