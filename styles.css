@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-image: url('img/pool.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: center;
+}
+.navbar {
+	color: #fff;
+}
+h4 {
+	text-transform: uppercase;
+	color: #ffffff;
+}
+h1 {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+}
+h3 {
+	color: #ffffff;
+}
+.caps  {
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 0 8px 0 5px;
+}
+button.btn {
+	background-color: #e70f2b;
+	color: #ffffff;
+	height: 5rem;
+	width: 15rem;
+}
+.fas {
+	padding: 10px;
+}
+p {
+	color: #ffffff;
+	padding: 20px;
+}
