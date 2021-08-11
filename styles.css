@@ -64,7 +64,9 @@ footer {
 	margin-top: 500px;
 	color: #ffffff;
 	margin-left: 20rem;
+	
 }
+
 .underline {
 	text-decoration: underline;
 }
@@ -80,22 +82,22 @@ footer {
 		margin-left: 1rem;
 	}
 	.first {
-		margin-left: 1rem;
+		margin-left: 3rem;
 		width: 200px;
 	}
 	.fw-bolder {
-		margin-left: 1rem;
+		margin-left: 3rem!important;
 		width: 300px !important;
 		font-size: 2rem !important;
 	}
 	.updates {
-		margin-left: 1rem;
+		margin-left: 3rem;
 		width: 300px!important;
 		display: inline-block!important;
 		line-height: 2rem!important;
 	}
 	.btn {
-		margin-left: 1rem!important;
+		margin-left: 3rem!important;
 	}
 	footer {
 		margin-top: 3rem;
@@ -103,30 +105,48 @@ footer {
 		width: 100%;
 		font-size: 0.8rem;
 	}
+	.contact {
+		margin-left: 2rem;
+	}
 	.copyright {
 		width: 100%;
-		margin-left: -2rem!important;
+		margin-left: -2.2rem!important;
 		font-size: 0.8rem;
 		text-align: center;
 	}
 	.respect {
-		margin-left: 3.3rem;
+		margin-left: 2rem!important;
 	}
 }
 @media (max-width: 768px) {
+	body {
+		height: 100vh;
+	}
 	.fw-bolder {
 		margin-left: 6rem;
 		width: 300px !important;
 		font-size: 2rem !important;
 	}
 	footer {
-		margin-top: 3rem;
+		margin-top: 5rem;
 		margin-left: 1rem!important;
-		width: 100%;
+	}
+	.contact {
+		width: 100px;
+	}
+	.copyright {
+		width: 500px;
 		display: inline-block!important;
 	}
 }
 @media (max-width: 992px) {
-
+	footer {
+		margin-top: 5rem;
+		margin-left: 1rem!important;
+		width: 100%!important;
+	}
+	.copyright {
+		width: 500px;
+	}
 }
 
